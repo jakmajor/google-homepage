@@ -6,7 +6,9 @@ Rebuilding the Google Homepage as part of the [The Odin Project](https://www.the
   * add correct hover animation to Google apps dropdown menu
   * add Google apps dropdown menu with icons 
   * add correct border hover to google-search and feeling-lucky buttons 
-  * pet my cats :-) 
+
+[you can view my page here :-)](https://jakmajor.github.io/google-homepage/)
+
 
 ![Alt Text](https://media.giphy.com/media/VekcnHOwOI5So/giphy.gif)
 
