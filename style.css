@@ -19,11 +19,21 @@ body {
 
 .header a {
   padding: 5px 9px;
-  color: black !important;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+.header svg {
+  position: relative;
+  margin-right: 5px;
+  height: 24px;
+  fill: #686868;
+}
+
+.header svg:hover {
+  box-shadow: 0 0 10px gray;
 }
 
 .profile-pic {
@@ -43,12 +53,36 @@ a:hover {
   height: 80vh;
 }
 
+#search {
+  width: 100%;
+  border-radius: 50px;
+  border: 1px solid #eee;
+  position: relative;
+  margin: 0px auto;
+  height: 37px;
+}
+
+#search:hover {
+  box-shadow: 0 2px 7px #f2f2f2;
+}
+
+.search-wrapper {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  top: 20%;
+  left: 10px;
+  z-index: 2;
+  color: #707579;
+}
+
 .button-wrapper {
   display: block;
   width: max-content;
   margin: 0px auto;
   margin-top: 20px;
-
 }
 
 .google-search-button {
@@ -65,11 +99,30 @@ a {
   font-size: 14px;
 }
 
-#search {
-  width: 100%;
-  border-radius: 50px;
-  border: 1px solid #eee;
-  position: relative;
-  margin: 0px auto;
-  height: 37px;
+.footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 48px;
+  background-color: #f2f2f2;
+}
+
+.footer a,
+.footer p {
+  color: #707579;
+}
+
+.footer a {
+  padding-left: 25px;
+}
+
+.footer p {
+  text-align: center;
+  padding-top: 17px;
+  font-size: 14px;
+}
+
+.leaf {
+  height: 13px;
+  padding-right: 8px;
 }
