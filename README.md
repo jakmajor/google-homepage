@@ -1,1 +1,1 @@
-This is Jak's replication of the Google homepage! 
+Oh you know, just re-creating Google's homepage...for fun? :-)
