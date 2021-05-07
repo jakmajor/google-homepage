@@ -1,0 +1,75 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+.logo {
+  display: block;
+  width: max-content;
+  margin: 0px auto;
+}
+
+.container {
+  width: 100%;
+}
+
+.header {
+  padding-top: 20px;
+  color: black !important;
+}
+
+.header a {
+  padding: 5px 9px;
+  color: black !important;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.profile-pic {
+  border-radius: 100%;
+  width: 35px;
+}
+
+.profile-pic:hover {
+  box-shadow: 0 0 10px gray;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.content-wrapper {
+  height: 80vh;
+}
+
+.button-wrapper {
+  display: block;
+  width: max-content;
+  margin: 0px auto;
+  margin-top: 20px;
+
+}
+
+.google-search-button {
+  margin-right: 10px;
+  color: #3c4043;
+}
+
+.feeling-lucky-button {
+  color: #3c4043;
+}
+
+a {
+  color: black;
+  font-size: 14px;
+}
+
+#search {
+  width: 100%;
+  border-radius: 50px;
+  border: 1px solid #eee;
+  position: relative;
+  margin: 0px auto;
+  height: 37px;
+}
